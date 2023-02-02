@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <style>
+        table,
+        tr,
+        td {
+            font-size: 20px;
+            border: 0px solid;
+            border-collapse: collapse;
+            padding: 6px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body bgcolor="#666666">
+    <script src="script.js">
+    </script>
+
+    <br>
+    <table width="1220px" height="850px" align="center" bgcolor="#EEEEEE">
+        <tr>
+            <td>
+                <font face="Arial">
+                    <h1 align="left">Список дел</h1>
+                    <button onclick="addTask();">add</button>
+                    <div id="addTaskTextArea"></div>
+                    <br>
+                    <table id="tblTasks" bgcolor="white" align="left" valign="top">
+                    </table>
+                </font>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
